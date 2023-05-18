@@ -1,0 +1,243 @@
+.subscription-box {
+  position: absolute;
+    right: 4%;
+    top:10%;
+    width:450px;
+}
+h2{
+  color: #3C4852;
+  font-size: 22px;
+  padding: 1%;
+  margin: 1%;
+  padding-top: 0;
+}
+hr{
+  border-width: 3px;
+  color: #BEBEBE;
+}
+
+.subscription-box ul {
+  list-style-type: none;
+  padding: 0;
+  
+}
+label{
+  position: relative;
+  top: 4px;
+}
+
+.subscription-box ul li {
+  border: 1px solid #ccc;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  position: relative;
+  color: #3C4852;
+  
+  
+}
+
+.subscription-box ul li:first-child {
+  background-color: #f2f2f2;
+  pointer-events: none;
+}
+
+.subscription-box ul li input[type="radio"] {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.subscription-box ul li label {
+margin-left: -0px;
+  font-size: 16px;
+  /* margin-left: 30px; */
+  vertical-align: middle;
+  cursor: pointer;
+  padding:1%;
+  width: 100%;
+}
+
+.subscription-box ul li span#breakdown {
+  font-size: 12px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.subscription-box ul li input[type="radio"]:checked + label {
+  background-color: #4ab067;
+  width: 100%;
+  color: #fff;
+  
+  
+}
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+
+  .page{
+  display: flex;
+  margin-top: -10px;
+  /* background-color: #005eff; */
+
+  }
+ .page-1{
+    /* padding: 1%; */
+    width: 50%;
+    padding: 0;
+  }
+  .page-2{
+    /* padding: 1%; */
+    width: 50%;
+    padding: 0;
+  }
+  .page-1 > i{
+    font-size: 1.5rem;
+    color: #005eff
+  }
+  .page-1 > p{
+    color: #3C4852;
+    font-size: small;
+  }
+  .page-2 > p{
+    color: #3C4852;
+    font-size: small;
+  }
+  .page-2 > i{
+    font-size: 1.5rem;
+    color: #005eff
+  } 
+  .offer-tab {
+    display: flex;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #span-1 {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #3C4852;
+  }
+  
+  #span-2 {
+    position: relative;
+    font-size: 16px;
+    padding-right: 25px;
+    color: #3C4852;
+    position: absolute;
+    right: 16px;
+  }
+  .subs{
+    display: flex;
+    padding: 1%;
+  }
+  .subs-text{
+    color: #3C4852;
+  }
+  .subs-price{
+    color: #3C4852;
+    position: absolute;
+    right: 10%;
+    font-weight: 600;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  #Cancel {
+    position: absolute;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    left: 10px;
+    width: 40%;
+  }
+  
+  #proceed {
+    position: absolute;
+    background-color: #47BA68;
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    right: 10px;
+    width: 50%;
+  }
+   .razorpay{
+    display: flex;
+    /* background-color: #333; */
+    padding-bottom: 5px;
+    bottom: -50px;
+    
+  }
+  .razorpay>img{
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 2%;
+    width: 20%;
+    position: inherit;
+    left: 15px;
+    height: 100%;
+  } 
+  .limited-offer{
+    position: relative;
+    padding: 27px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:linear-gradient(135deg, rgba(222, 67, 19, 0.2) 0%, rgba(222, 67, 19, 0.2) 0.75%, rgba(222, 67, 19, 0.2) 2.92%, rgba(222, 68, 20, 0.2) 6.37%, rgba(223, 69, 21, 0.2) 10.97%, rgba(223, 72, 22, 0.2) 16.59%, rgba(224, 75, 24, 0.2) 23.1%, rgba(225, 80, 27, 0.2) 30.37%, rgba(227, 86, 31, 0.2) 38.27%, rgba(229, 94, 36, 0.2) 46.66%, rgba(231, 104, 43, 0.2) 55.41%, rgba(235, 117, 51, 0.2) 64.39%, rgba(238, 132, 60, 0.2) 73.47%, rgba(243, 149, 71, 0.2) 82.52%, rgba(248, 169, 84, 0.2) 91.41%, rgba(254, 193, 99, 0.2) 100%);
+  }
+  .limited-offer-text{
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    color: #DE4313;
+    left: 10px;
+    padding: 0;
+    top:10%;
+  }
+  .limited-offer-price{
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+    color: #3C4852;
+    font-weight: 700;
+    top:12%;
+  }
+  .limited-offer-clock>i{
+    position: absolute;
+    font-size: 16px;
+    padding: 2px;
+    color: #DE4313;
+    top:50%;
+    left:13px;
+  }
+   .limited-offer-text2{
+    font-weight: normal;
+    font-size: 12px;
+    position: absolute;
+    color: #DE4313;
+    top:50%;
+    left:10%;
+  } 
+  label>span {
+    margin-left: 100px;
+    margin-right: 0;
+    position: static;
+    top: -50px;
+  }

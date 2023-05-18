@@ -1,0 +1,167 @@
+/* App.css */
+body {
+  /* background-image: url("./assets/Back Ground.jpg"); */
+  background-color: #101f3e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  position: relative;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 38px;
+  width: 140px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+}
+#dropbtn1{
+  position: absolute;
+  left: 13%;
+  
+}
+#dropbtn2{
+  position: absolute;
+  left: 22%;
+}
+
+.dropbtn i {
+  margin-left: 5px;
+}
+
+
+.search-icon i {
+  position: absolute;
+  right: 26.5%;
+  height: 30px;
+  top: 40%;
+  color: #000;
+}
+
+.login-btn{
+  position: absolute;
+  right: 20%;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.join-btn {
+  position: absolute;
+  right: 5%;
+  background:linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+  color: white;
+  padding: 8px 35px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 52px;
+  font-weight: 700;
+}
+
+.join-btn:hover {
+  background-color: #45a049;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-section {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+
+.subscription-box {
+  background-color: white;
+  padding: 18px;
+  border-radius: 4px;
+  height: 676px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+.left-section span{
+  color: #0048FF;
+}
+.strike {
+  color: white;
+  position: relative;
+}
+
+.strike::after {
+  content: '';
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+}
+
+
+.left-section>.Head{
+  font-weight: 600;
+  font-size: 48px;
+  position: absolute;
+  left: 6%;
+}
+.left-section>.Head-sub{
+  position: absolute;
+  font-weight: 600;
+  font-size: 48px;
+  left: 6%;
+  top: 18%;
+}
+.content{
+  position: absolute;
+  top: 32%;
+  left: 9%;
+  font-size: 25px;
+}
+.content > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.content > div .img {
+  width: 30px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+.Head-sub span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.content span{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+
